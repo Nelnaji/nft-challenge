@@ -1,8 +1,13 @@
 import React from "react";
+import Body from "./components/body/Body.js";
 
 class App extends React.Component {
   render() {
-    return <div></div>;
+    return (
+      <div>
+        <Body />
+      </div>
+    );
   }
 }
 
