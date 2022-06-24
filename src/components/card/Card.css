@@ -1,7 +1,27 @@
 .card-body {
   background-color: var(--card-bg);
-  border-radius: 1rem;
-  width: 30vw;
-  height: 80vh;
+  border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 28rem;
+}
+
+.small-text {
+  font-size: 1.4rem;
+  color: var(--soft-blue);
+}
+
+.price-date__container {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.4rem;
+}
+
+.line-separation {
+  color: var(--line-bg);
 }

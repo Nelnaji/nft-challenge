@@ -1,0 +1,17 @@
+.profile-container {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  gap: 0.5rem;
+}
+.profile-text {
+  color: var(--soft-blue);
+}
+.profile-picture {
+  width: 15%;
+  border: 1px solid var(--white);
+  border-radius: 50%;
+}
+.creator-name {
+  color: var(--white);
+}

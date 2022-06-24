@@ -1,12 +1,13 @@
 import React from "react";
-import CardImage from "../card/Card.js";
+import Card from "../card/Card.js";
+
 import "./Body.css";
 
 class Body extends React.Component {
   render() {
     return (
       <div className="main-body">
-        <CardImage></CardImage>
+        <Card></Card>
       </div>
     );
   }

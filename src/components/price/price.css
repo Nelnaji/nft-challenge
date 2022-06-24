@@ -1,0 +1,5 @@
+.price-container {
+  display: flex;
+  gap: 1rem;
+  color: var(--cyan);
+}
