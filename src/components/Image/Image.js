@@ -6,7 +6,12 @@ class Image extends React.Component {
   render() {
     return (
       <div className="image-container">
-        <img src={NFTImage} className="image-card" alt="equilibrium" />
+        <img
+          src={NFTImage}
+          onMouseOver="changeImage(this)"
+          className="image-card"
+          alt="equilibrium"
+        />
       </div>
     );
   }
